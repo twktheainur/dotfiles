@@ -27,6 +27,11 @@ cp .zshrc $HOME/
 cp -r .vim_runtime/ $HOME/
 cp .vimrc $HOME/
 
-for i in `ls -1 .fonts/*/*.ttf` do
+for i in `ls -1 .fonts/*/*.ttf`; do
     open $i
 done
+for i in `ls -1 .fonts/*/*.otf`; do
+    open $i
+done
+
+
