@@ -10,7 +10,7 @@ brew tap caskroom/cask
 brew install zsh
 
 #Installing utilities
-brew install wget zsh grep gnu-sed gnu-getopt gnupg2 vim rbenv
+brew install wget zsh grep gnu-sed gnu-getopt gnupg2 vim rbenv git
 
 #Retrieving oh-my-zsh
 pushd $HOME
