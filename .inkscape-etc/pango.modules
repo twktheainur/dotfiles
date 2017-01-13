@@ -1,0 +1,17 @@
+# Pango Modules file
+# Automatically generated file, do not edit
+#
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-arabic-lang.so" ArabicScriptEngineLang PangoEngineLang PangoRenderNone arabic:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-basic-coretext.so" BasicScriptEngineCoreText PangoEngineShape PangoRenderCoreText common:
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-basic-fc.so" BasicScriptEngineFc PangoEngineShape PangoRenderFc common:
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" devaIndicScriptEngineLang PangoEngineLang PangoRenderNone devanagari:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" bengIndicScriptEngineLang PangoEngineLang PangoRenderNone bengali:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" guruIndicScriptEngineLang PangoEngineLang PangoRenderNone gurmukhi:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" gujrIndicScriptEngineLang PangoEngineLang PangoRenderNone gujarati:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" oryaIndicScriptEngineLang PangoEngineLang PangoRenderNone oriya:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" tamlIndicScriptEngineLang PangoEngineLang PangoRenderNone tamil:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" teluIndicScriptEngineLang PangoEngineLang PangoRenderNone telugu:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" kndaIndicScriptEngineLang PangoEngineLang PangoRenderNone kannada:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" mlymIndicScriptEngineLang PangoEngineLang PangoRenderNone malayalam:*
+"/opt/homebrew-cask/Caskroom/inkscape/0.48.5-2/Inkscape.app/Contents/Resources/lib/pango/1.8.0/modules/pango-indic-lang.so" sinhIndicScriptEngineLang PangoEngineLang PangoRenderNone sinhala:*
+

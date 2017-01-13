@@ -1,0 +1,71 @@
+rm -rf ~/.m2/repository/io/github/twktheainur/
+docker build -t "bioportal-annotator-proxy" .
+docker run -p 8081:8081 bioportal-annotator-proxy 
+docker build -t bioportal-api .
+docker-compose logs bioportal-api
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:9393/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:9393/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:9393/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:9393/ontologies/MSHFRE/submissions
+docker-compose build bioportal-api
+grep "(CR)" -r ./*
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:9393/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:9393/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+docker run -it bioportal-api bash
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+vim /Users/tchechem/.bundle/ruby/2.4.0/ncbo_annotator-75c41ac566ea/lib/ncbo_annotator/config.rb
+echo "ANY Cancer" | nc localhost 55555
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:8080/users
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:4567/users
+curl -X POST -H "Content-Type: application/json" -d '{"username": "admin", "email": "andon.tchechmedjiev@lirmm.fr", "role": ["ADMINISTRATOR"], "passwordHash": "admin"}' http://localhost:4567/users
+curl -X POST -d' ' http://localhost:4567/users/authenticate\?user\=admin\&password\=toto
+docker-compose up --force-recreate
+curl -X POST -H'Authorization: apikey token=61297daf-147c-40f3-b9b1-a3a2d6b744fa' -d' ' http://localhost:4567/annotator/dictionary/
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H'Authorization: apikey token=61297daf-147c-40f3-b9b1-a3a2d6b744fa' -d' ' http://localhost:4567/annotator/dictionary/
+echo "ANY apple" | nc localhost 55555
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+echo "ANY Protoplaste" | nc localhost 55555
+curl -X POST -H'Authorization: apikey token=61297daf-147c-40f3-b9b1-a3a2d6b744fa' -d' ' http://localhost:8080/annotator/cache/
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+tail -f parsing.log
+curl -X POST -H'Authorization: apikey token=61297daf-147c-40f3-b9b1-a3a2d6b744fa' -d' ' http://localhost:8080/annotator/cache/
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H'Authorization: apikey token=61297daf-147c-40f3-b9b1-a3a2d6b744fa' -d' ' http://localhost:8080/annotator/cache/
+ssh root@localhost -p 2222
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+echo "ANY training" | nc localhost 55555
+ssh root@localhost -p 2222
+ssh root@localhost -p 2222
+curl -X POST -H "Content-Type: application/json" -d '{ "acronym": "MSHFRE", "name": "Mesh Français", "administeredBy": ["admin"]}'  http://localhost:8080/ontologies
+curl -X POST -H "Content-Type: application/json" -d '{ "hasOntologyLanguage": "OWL", "uploadFilePath": "/srv/bioportal/repository/MSHFRE.ttl", "contact": [{"name": "Vincent","email": "vincent.emonet@lirmm.fr"}], "released": "2015-09-06"}'  http://localhost:8080/ontologies/MSHFRE/submissions
+mv sifr-bioportal-annotator-proxy-0.1-SNAPSHOT.war ncbo_annotatorplus.war

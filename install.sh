@@ -27,6 +27,8 @@ cp .zshrc $HOME/
 cp -r .vim_runtime/ $HOME/
 cp .vimrc $HOME/
 
+cp ramdisk.sh $HOME/
+
 for i in `ls -1 .fonts/*/*.ttf`; do
     open $i
 done
@@ -34,4 +36,4 @@ for i in `ls -1 .fonts/*/*.otf`; do
     open $i
 done
 
-
+brew cask install blender chicken alfred atom filezilla google-chrome iterm2 jabref lastfm lisanet-gimp mendeley-desktop osxfuse playonmac skype unrarx viber virtualbox visualvm xquartz

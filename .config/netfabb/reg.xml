@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLReg>
+  <Key Name="HKEY_CURRENT_USER">
+    <Key Name="Software">
+      <Key Name="NetFabb">
+        <Value Name="Show Platform" Type="1">0</Value>
+        <Value Name="ShowAnchors" Type="1">0</Value>
+        <Value Name="DefaultPlatformSizeX" Type="1">450000</Value>
+        <Value Name="DefaultPlatformSizeY" Type="1">420000</Value>
+        <Value Name="DefaultPlatformSizeZ" Type="1">400000</Value>
+        <Value Name="HighlightInvalidParts" Type="1">1</Value>
+        <Value Name="CoordShowPlanes" Type="1">1</Value>
+        <Value Name="CoordSize" Type="1">20</Value>
+        <Value Name="CoordMinPlaneSize" Type="1">25</Value>
+        <Value Name="CoordMaxPlaneSize" Type="1">75</Value>
+        <Value Name="CoordPlaneThickness" Type="1">10</Value>
+        <Value Name="BackgroundGradientStrength" Type="1">40</Value>
+        <Value Name="Default3SGCellSizeX" Type="1">10000</Value>
+        <Value Name="Default3SGCellSizeY" Type="1">10000</Value>
+        <Value Name="Default3SGCellSizeZ" Type="1">10000</Value>
+        <Value Name="Default3SGRasterSizeX" Type="1">10000</Value>
+        <Value Name="Default3SGRasterSizeY" Type="1">10000</Value>
+        <Value Name="Default3SGRasterSizeZ" Type="1">10000</Value>
+        <Value Name="Default3SGRasterLayerSize" Type="1">100</Value>
+        <Value Name="Default3SGFaceThickness" Type="1">20</Value>
+        <Value Name="Default3SGFaceEdgeOverlap" Type="1">10</Value>
+        <Value Name="DefaultStitchTolerance" Type="1">50</Value>
+        <Value Name="DefaultDegeneratedFacesTolerance" Type="1">20</Value>
+        <Value Name="DefaultGhostShellMinVolume" Type="1">10</Value>
+        <Value Name="ShowAllFilesInMeshloader" Type="1">0</Value>
+        <Value Name="DuplicateGapX" Type="1">2000</Value>
+        <Value Name="DuplicateGapY" Type="1">2000</Value>
+        <Value Name="DuplicateGapZ" Type="1">2000</Value>
+        <Value Name="DuplicateArrangeParts" Type="1">1</Value>
+        <Value Name="MainForm Width" Type="1">1370</Value>
+        <Value Name="MainForm Height" Type="1">660</Value>
+        <Value Name="MainForm Top" Type="1">22</Value>
+        <Value Name="MainForm Left" Type="1">0</Value>
+        <Value Name="Onlinestatus" Type="1">0</Value>
+        <Value Name="Show Menu" Type="1">1</Value>
+        <Value Name="Grid Mode" Type="1">2</Value>
+        <Value Name="CheckForSTLLink" Type="1">1</Value>
+        <Value Name="Registered" Type="1">0</Value>
+        <Value Name="LinesDepthTest" Type="1">0</Value>
+        <Value Name="RemoveOriginalParts" Type="1">1</Value>
+        <Value Name="RemoveDegenerateFaces" Type="1">1</Value>
+        <Value Name="RemoveDegenerateFacesTolerance" Type="2">0.001000</Value>
+        <Value Name="IphoneEnabled" Type="1">0</Value>
+        <Value Name="rotation_discretization" Type="1">2000</Value>
+        <Value Name="rotation_shortcut_degree" Type="1">4500</Value>
+        <Value Name="MeshRepairStatsAutoUpdate" Type="1">1</Value>
+        <Value Name="MeshRepairRemoveDegenerateFacesOnlySelected" Type="1">1</Value>
+        <Value Name="MeshRepairShowTriangleMesh" Type="1">1</Value>
+        <Value Name="MeshRepairShowBoundaries" Type="1">1</Value>
+        <Value Name="MeshRepairShowBadFaces" Type="1">1</Value>
+        <Value Name="PlatformWarning" Type="1">0</Value>
+        <Value Name="Leistung" Type="1">147</Value>
+        <Value Name="Farbe" Type="1">0</Value>
+        <Value Name="Material" Type="1">0</Value>
+        <Value Name="Qualitaet" Type="1">0</Value>
+        <Value Name="Verwendungszweck" Type="1">0</Value>
+        <Value Name="pointsonslices" Type="1">0</Value>
+        <Value Name="GMPLibraryName" Type="2">/Applications/netfabb Basic.app/Contents/MacOS/libgmp-3_mmx.dll</Value>
+        <Value Name="SliceFillingDefaultMode" Type="1">0</Value>
+        <Value Name="InstallData" Type="2">4jNDDqGrbgQ=</Value>
+        <Value Name="UseMeshLoader" Type="1">0</Value>
+        <Value Name="MeshRenderEdges" Type="1">1</Value>
+        <Value Name="CopyPartsAdjustTotalCount" Type="1">0</Value>
+        <Value Name="InstallID" Type="1">0</Value>
+        <Value Name="ProxyUseAdmin" Type="1">0</Value>
+        <Value Name="UseProxy" Type="1">0</Value>
+        <Value Name="ProxyPort" Type="1">3128</Value>
+        <Value Name="ProxyAuth" Type="1">0</Value>
+        <Value Name="Language" Type="1">2</Value>
+        <Value Name="LayerThickness" Type="1">150</Value>
+        <Value Name="HighlightBackFaces" Type="1">1</Value>
+        <Value Name="ShowStructure" Type="1">0</Value>
+        <Value Name="LengthUnit" Type="1">1</Value>
+        <Value Name="uuid" Type="2">C32301B704AFEB96DD7780CE7493AA41</Value>
+        <Value Name="StandardMeasureToleranceDistance" Type="1">100</Value>
+        <Value Name="StandardMeasureToleranceAngle" Type="1">500</Value>
+        <Value Name="StandardMeasureToleranceRelative" Type="1">100</Value>
+        <Value Name="FITInAutoUpload" Type="1">0</Value>
+        <Value Name="Slice_Commander_Prehatch_Line_Count" Type="1">10</Value>
+        <Value Name="Slice_Commander_Show_PreHatch_X" Type="1">1</Value>
+        <Value Name="Slice_Commander_Show_PreHatch_Y" Type="1">1</Value>
+        <Value Name="Slice_Commander_Show_Gitter" Type="1">1</Value>
+        <Value Name="slicepointreductiontolerance" Type="1">50</Value>
+        <Value Name="Slice_Commander_TimeInterval" Type="1">10</Value>
+        <Value Name="MeshRepairLODMaxDeformation" Type="1">10000</Value>
+        <Value Name="MeshRepairLODMaxEdgeLength" Type="1">5000</Value>
+        <Value Name="MeshRepairLODAdvMaxDeformation" Type="1">10000</Value>
+        <Value Name="MeshRepairLODAdvMaxEdgeLength" Type="1">5000</Value>
+        <Value Name="MeshRepairMaxBadFaceEdgeLength" Type="1">10</Value>
+        <Value Name="MeshRepairLaplacianStrength" Type="1">10000</Value>
+        <Value Name="MeshRepairLaplacianSmoothingMethod" Type="1">2</Value>
+        <Value Name="MeshRepairLaplacianPreventVolumeShrinking" Type="1">1</Value>
+        <Value Name="CustomColorCount" Type="1">0</Value>
+        <Key Name="Colors">
+          <Value Name="3s_backface" Type="1">9714291</Value>
+          <Value Name="3s_backface_selected" Type="1">814196</Value>
+          <Value Name="3s_background" Type="1">14737632</Value>
+          <Value Name="3s_bottom_plane" Type="1">7715257</Value>
+          <Value Name="3s_createnode" Type="1">9854976</Value>
+          <Value Name="3s_createnode_selected" Type="1">24576</Value>
+          <Value Name="3s_default" Type="1">8669239</Value>
+          <Value Name="3s_hatches" Type="1">4227200</Value>
+          <Value Name="3s_hatches_selected" Type="1">6332576</Value>
+          <Value Name="3s_invalid" Type="1">22435</Value>
+          <Value Name="3s_invalid_selected" Type="1">184</Value>
+          <Value Name="3s_preview" Type="1">4210752</Value>
+          <Value Name="3s_selected" Type="1">3837754</Value>
+          <Value Name="3s_side_plane" Type="1">11645361</Value>
+          <Value Name="3s_spherenode" Type="1">22435</Value>
+          <Value Name="3s_spherenode_selected" Type="1">184</Value>
+          <Value Name="3se_partcolor" Type="1">8421504</Value>
+          <Value Name="3se_selectioncolor" Type="1">12566272</Value>
+          <Value Name="3se_simulation" Type="1">8669239</Value>
+          <Value Name="background" Type="1">16777215</Value>
+          <Value Name="collisions" Type="1">255</Value>
+          <Value Name="coordsystem_origin" Type="1">6579300</Value>
+          <Value Name="coordsystem_x" Type="1">255</Value>
+          <Value Name="coordsystem_y" Type="1">32768</Value>
+          <Value Name="coordsystem_z" Type="1">16711680</Value>
+          <Value Name="default_backfacecolor" Type="1">128</Value>
+          <Value Name="default_boolean_add" Type="1">32768</Value>
+          <Value Name="default_boolean_preview" Type="1">6959360</Value>
+          <Value Name="default_boolean_subtract" Type="1">255</Value>
+          <Value Name="default_easysupport_anchor" Type="1">15210521</Value>
+          <Value Name="default_easysupport_currentsupport" Type="1">8988384</Value>
+          <Value Name="default_easysupport_mainmesh" Type="1">12753522</Value>
+          <Value Name="default_easysupport_platform" Type="1">1959965</Value>
+          <Value Name="default_easysupport_support" Type="1">1908200</Value>
+          <Value Name="default_highlightcolor" Type="1">65280</Value>
+          <Value Name="default_meshmanipulation_preview" Type="1">9302665</Value>
+          <Value Name="default_meshmanipulation_result" Type="1">4098259</Value>
+          <Value Name="default_meshviewer_color" Type="1">4098259</Value>
+          <Value Name="default_quickcolortexture_color" Type="1">16777215</Value>
+          <Value Name="iphone_backfacecolor" Type="1">128</Value>
+          <Value Name="iphone_partcolor" Type="1">12632256</Value>
+          <Value Name="labeling_backface" Type="1">128</Value>
+          <Value Name="labeling_part" Type="1">8421504</Value>
+          <Value Name="measurement_partcolor" Type="1">8421504</Value>
+          <Value Name="measurement_preview_anchors" Type="1">65535</Value>
+          <Value Name="measurement_preview_elements" Type="1">16748544</Value>
+          <Value Name="measurement_preview_value_background" Type="1">16777215</Value>
+          <Value Name="measurement_preview_value_foreground" Type="1">0</Value>
+          <Value Name="meshloader_previewpartbackcolor" Type="1">96</Value>
+          <Value Name="meshloader_previewpartcolor" Type="1">6316128</Value>
+          <Value Name="meshrepair_badedges" Type="1">65535</Value>
+          <Value Name="meshrepair_badfaces" Type="1">4227327</Value>
+          <Value Name="meshrepair_duplicatetriangles" Type="1">32511</Value>
+          <Value Name="meshrepair_edges" Type="1">0</Value>
+          <Value Name="meshrepair_extrusion" Type="1">11636331</Value>
+          <Value Name="meshrepair_extrusion_lines" Type="1">11636331</Value>
+          <Value Name="meshrepair_facesplitedges" Type="1">10768896</Value>
+          <Value Name="meshrepair_facesplitfaces" Type="1">16748544</Value>
+          <Value Name="meshrepair_part_backside" Type="1">96</Value>
+          <Value Name="meshrepair_part_backside_selected" Type="1">16384</Value>
+          <Value Name="meshrepair_part_frontside" Type="1">16759671</Value>
+          <Value Name="meshrepair_part_frontside_selected" Type="1">32768</Value>
+          <Value Name="meshrepair_pathfinder" Type="1">255</Value>
+          <Value Name="meshrepair_selectededge" Type="1">16748544</Value>
+          <Value Name="meshrepair_selfintersections" Type="1">255</Value>
+          <Value Name="meshrepair_trianglemesh" Type="1">2105376</Value>
+          <Value Name="meshrepair_trianglepreview" Type="1">32768</Value>
+          <Value Name="part_defaultcolor1" Type="1">8421504</Value>
+          <Value Name="part_defaultcolor2" Type="1">3487031</Value>
+          <Value Name="part_defaultcolor3" Type="1">13910351</Value>
+          <Value Name="part_defaultcolor4" Type="1">3947688</Value>
+          <Value Name="part_defaultcolor5" Type="1">16755635</Value>
+          <Value Name="part_defaultcolor6" Type="1">40191</Value>
+          <Value Name="part_defaultcolor7" Type="1">12639424</Value>
+          <Value Name="part_defaultcolor8" Type="1">3036760</Value>
+          <Value Name="partanalysis_backface" Type="1">128</Value>
+          <Value Name="partanalysis_badedges" Type="1">65535</Value>
+          <Value Name="partanalysis_part" Type="1">8421504</Value>
+          <Value Name="platform" Type="1">52428</Value>
+          <Value Name="platformhighlightcolor" Type="1">13421772</Value>
+          <Value Name="polygoncut_anchors" Type="1">65535</Value>
+          <Value Name="polygoncut_boundary" Type="1">16744448</Value>
+          <Value Name="polygoncut_face" Type="1">8421504</Value>
+          <Value Name="primitive_background" Type="1">16777215</Value>
+          <Value Name="slice_background" Type="1">16777215</Value>
+          <Value Name="slice_defaultcolor1" Type="1">0</Value>
+          <Value Name="slice_defaultcolor2" Type="1">16575</Value>
+          <Value Name="slice_defaultcolor3" Type="1">33023</Value>
+          <Value Name="slice_defaultcolor4" Type="1">16711680</Value>
+          <Value Name="slice_defaultcolor5" Type="1">80</Value>
+          <Value Name="slice_defaultcolor6" Type="1">255</Value>
+          <Value Name="slice_defaultcolor7" Type="1">35584</Value>
+          <Value Name="slice_defaultcolor8" Type="1">14371238</Value>
+          <Value Name="slices_x" Type="1">255</Value>
+          <Value Name="slices_y" Type="1">32768</Value>
+          <Value Name="slices_z" Type="1">16711680</Value>
+          <Value Name="surfacedata_defaultcolor1" Type="1">8421504</Value>
+          <Value Name="surfacedata_defaultcolor2" Type="1">3487031</Value>
+          <Value Name="surfacedata_defaultcolor3" Type="1">13910351</Value>
+          <Value Name="surfacedata_defaultcolor4" Type="1">40191</Value>
+          <Value Name="surfacedata_defaultcolor5" Type="1">14600333</Value>
+          <Value Name="surfacedata_defaultcolor6" Type="1">9092825</Value>
+          <Value Name="surfacedata_defaultcolor7" Type="1">25236</Value>
+          <Value Name="surfacedata_defaultcolor8" Type="1">14371238</Value>
+          <Value Name="surfacedata_selected" Type="1">3837754</Value>
+          <Value Name="surfacestructures_anchors" Type="1">37119</Value>
+          <Value Name="surfacestructures_backface" Type="1">128</Value>
+          <Value Name="surfacestructures_boundary" Type="1">65535</Value>
+          <Value Name="surfacestructures_heightmodel" Type="1">8421504</Value>
+          <Value Name="surfacestructures_part" Type="1">8421504</Value>
+          <Value Name="value_bad" Type="1">255</Value>
+          <Value Name="value_ok" Type="1">32768</Value>
+          <Value Name="volumecut_plane" Type="1">15780518</Value>
+          <Value Name="volumedata_cellpreview" Type="1">255</Value>
+          <Value Name="volumedata_defaultcolor1" Type="1">8421504</Value>
+          <Value Name="volumedata_defaultcolor2" Type="1">3487031</Value>
+          <Value Name="volumedata_defaultcolor3" Type="1">13910351</Value>
+          <Value Name="volumedata_defaultcolor4" Type="1">40191</Value>
+          <Value Name="volumedata_defaultcolor5" Type="1">14600333</Value>
+          <Value Name="volumedata_defaultcolor6" Type="1">9092825</Value>
+          <Value Name="volumedata_defaultcolor7" Type="1">25236</Value>
+          <Value Name="volumedata_defaultcolor8" Type="1">14371238</Value>
+          <Value Name="volumedata_raster" Type="1">8384</Value>
+        </Key>
+        <Key Name="Paths">
+          <Value Name="default_openpart_last" Type="2">/Users/tchechem/Downloads/speederbikesw_ardrone_adapted/</Value>
+        </Key>
+        <Key Name="general">
+          <Value Name="showmenuicons" Type="2">1</Value>
+          <Value Name="showimportdialog" Type="2">1</Value>
+          <Value Name="listenforremotecontrol" Type="2">0</Value>
+        </Key>
+        <Key Name="default">
+          <Value Name="duplicate_in_x" Type="2">1</Value>
+          <Value Name="duplicate_in_y" Type="2">1</Value>
+          <Value Name="duplicate_in_z" Type="2">1</Value>
+          <Value Name="showpartnumbers" Type="2">1</Value>
+          <Value Name="keeptranslatedialogopen" Type="2">0</Value>
+          <Value Name="keepscaledialogopen" Type="2">0</Value>
+          <Value Name="keeprotatedialogopen" Type="2">0</Value>
+          <Value Name="keepmirrordialogopen" Type="2">0</Value>
+          <Value Name="deletemirroredparts" Type="2">1</Value>
+          <Value Name="showplatformcenterlines" Type="2">0</Value>
+          <Value Name="zoomtocreatedpart" Type="2">1</Value>
+          <Value Name="showpartnames" Type="2">0</Value>
+          <Value Name="showgrid" Type="2">0</Value>
+          <Value Name="splitasciistldialog" Type="2">1</Value>
+          <Value Name="splitasciistls" Type="2">1</Value>
+          <Value Name="usecrashlogger" Type="2">0</Value>
+          <Value Name="resolvelnknames" Type="2">0</Value>
+          <Value Name="useenhancedengine" Type="2">1</Value>
+          <Value Name="restorelodafterprojectloading" Type="2">1</Value>
+          <Value Name="askforsavingwhiledeletion" Type="2">0</Value>
+          <Value Name="useadvancedlodmethod" Type="2">1</Value>
+          <Value Name="usenetprojectcache" Type="2">1</Value>
+          <Value Name="confirmationafterprojectsaving" Type="2">1</Value>
+        </Key>
+        <Key Name="sliceexport">
+          <Value Name="cliexporttype" Type="2">0</Value>
+        </Key>
+        <Key Name="slicing">
+          <Value Name="directslicedefaultlayersize" Type="2">0.1</Value>
+          <Value Name="directslicedefaultformat" Type="2">0</Value>
+        </Key>
+        <Key Name="meshrepair">
+          <Value Name="undomode" Type="2">2</Value>
+          <Value Name="rectangleselectionmode" Type="2">3</Value>
+          <Value Name="shelllist_autoselect" Type="2">1</Value>
+        </Key>
+        <Key Name="measuring">
+          <Value Name="defaultmeasuremode" Type="2">0</Value>
+          <Value Name="defaultpointmode" Type="2">0</Value>
+        </Key>
+        <Key Name="boolean">
+          <Value Name="filtershellstolerance" Type="2">0.1</Value>
+          <Value Name="filtershells" Type="2">1</Value>
+        </Key>
+        <Key Name="alignment">
+          <Value Name="translatetodistance" Type="2">1</Value>
+          <Value Name="autodistance" Type="2">0</Value>
+        </Key>
+        <Key Name="stereographic">
+          <Value Name="scheme" Type="2">0</Value>
+        </Key>
+        <Key Name="modelinfo">
+          <Value Name="modelinfo_exportonlyfilenames" Type="2">0</Value>
+          <Value Name="modelinfo_baserow" Type="2">1</Value>
+          <Value Name="modelinfo_basecolumn" Type="2">1</Value>
+        </Key>
+      </Key>
+    </Key>
+  </Key>
+</XMLReg>

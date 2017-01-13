@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by Qt Creator 2.6.1, 2014-06-19T14:38:01. -->
+<qtcreator>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">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</value>
+ </data>
+ <data>
+  <variable>OpenEditors</variable>
+  <value type="int">5</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/Users/tchechem/Documents/Natalie/wssig/Doomsday-Engine/doomsday/doomsday.pro</value>
+   <value type="QString">/Users/tchechem/Documents/Natalie/wssig/Doomsday-Engine/doomsday/sdk.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/Users/tchechem/Documents/Natalie/wssig/Doomsday-Engine/doomsday/sdk.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Welcome</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DebuggerToolTips</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">session</value>
+   <value type="QString">/Users/tchechem/Documents/Natalie/wssig/Doomsday-Engine/doomsday/sdk.pro</value>
+   <value type="QString">/Users/tchechem/Documents/Natalie/wssig/Doomsday-Engine/doomsday/config.pri</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DebuggerToolTips</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>
