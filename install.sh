@@ -10,7 +10,7 @@ brew tap caskroom/cask
 brew install zsh
 
 #Installing utilities
-brew install wget zsh grep gnu-sed gnu-getopt gnupg2 vim
+brew install wget zsh grep gnu-sed gnu-getopt gnupg2 vim rbenv
 
 #Retrieving oh-my-zsh
 pushd $HOME
@@ -36,4 +36,4 @@ for i in `ls -1 .fonts/*/*.otf`; do
     open $i
 done
 
-brew cask install blender chicken alfred atom filezilla google-chrome iterm2 jabref lastfm lisanet-gimp mendeley-desktop osxfuse playonmac skype unrarx viber virtualbox visualvm xquartz
+brew cask install blender chicken alfred atom filezilla google-chrome iterm2 jabref lastfm lisanet-gimp mendeley-desktop osxfuse playonmac skype unrarx viber virtualbox visualvm xquartz intellij-idea rubymine clion adobe-reader arduino battle-net spotify whatsapp vivaldi vlc texstuio teamviewer flirc handbrake onyx textwrangler djview protege virtualbox virtualbox-extension-pack 
